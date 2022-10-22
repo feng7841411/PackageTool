@@ -1,0 +1,532 @@
+2022-10-19 11:03:28.287 INFO [main][StartupInfoLogger.java:55] - Starting PackageToolApplication using Java 1.8.0_345 on fengjinhe with PID 13484 (C:\Users\冯金河\IdeaProjects\PackageTool\target\classes started by 冯金河 in C:\Users\冯金河\IdeaProjects\PackageTool)
+2022-10-19 11:03:28.287 INFO [main][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+2022-10-19 11:03:28.788 INFO [main][RepositoryConfigurationDelegate.java:128] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 11:03:28.804 INFO [main][RepositoryConfigurationDelegate.java:188] - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2022-10-19 11:03:29.087 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 19801 (http)
+2022-10-19 11:03:29.103 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-19801"]
+2022-10-19 11:03:29.103 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2022-10-19 11:03:29.103 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-19 11:03:29.150 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2022-10-19 11:03:29.150 INFO [main][ServletWebServerApplicationContext.java:289] - Root WebApplicationContext: initialization completed in 811 ms
+2022-10-19 11:03:29.150 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2022-10-19 11:03:29.197 ERROR [main][DruidDataSource.java:1206] - testWhileIdle is true, validationQuery not set
+2022-10-19 11:03:29.213 INFO [main][DruidDataSource.java:1003] - {dataSource-1} inited
+2022-10-19 11:03:29.291 INFO [main][H2ConsoleAutoConfiguration.java:68] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../PackageTool/data/H2DataBase/h2db'
+2022-10-19 11:03:29.354 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 11:03:29.386 INFO [main][Version.java:44] - HHH000412: Hibernate ORM core version 5.4.25.Final
+2022-10-19 11:03:29.464 INFO [main][JavaReflectionManager.java:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 11:03:29.527 INFO [main][Dialect.java:175] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 11:03:29.794 INFO [main][JtaPlatformInitiator.java:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 11:03:29.810 INFO [main][AbstractEntityManagerFactoryBean.java:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 11:03:30.406 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-19 11:03:30.422 INFO [main][WelcomePageHandlerMapping.java:54] - Adding welcome page: class path resource [static/index.html]
+2022-10-19 11:03:30.481 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-19801"]
+2022-10-19 11:03:30.485 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 19801 (http) with context path ''
+2022-10-19 11:03:30.689 INFO [main][StartupInfoLogger.java:61] - Started PackageToolApplication in 2.614 seconds (JVM running for 3.283)
+2022-10-19 11:09:53.147 INFO [http-nio-19801-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 11:09:53.147 INFO [http-nio-19801-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2022-10-19 11:09:53.149 INFO [http-nio-19801-exec-1][FrameworkServlet.java:547] - Completed initialization in 2 ms
+2022-10-19 11:09:53.237 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:09:53.237 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:09:53.238 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@5157fa42
+2022-10-19 11:09:53.238 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:09:53.238 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:09:53.238 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:78] - fastjson-1.2.58.tar
+2022-10-19 11:09:53.238 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:79] - 607159
+2022-10-19 11:09:53.238 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:09:53.238 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:09:53.244 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:96] - originalFileName: fastjson-1.2.58.tar
+2022-10-19 11:09:53.244 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:97] - contentType: tar
+2022-10-19 11:09:53.244 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:98] - fileUid: 846eaaaf22e44c66b0c0ff2ee4a12b5d.tar
+2022-10-19 11:09:53.244 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\846eaaaf22e44c66b0c0ff2ee4a12b5d.tar
+2022-10-19 11:09:53.244 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\846eaaaf22e44c66b0c0ff2ee4a12b5d.tar
+2022-10-19 11:09:53.244 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:09:53.244 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:09:53.281 INFO [http-nio-19801-exec-1][FileController.java:46] - 文件：fastjson-1.2.58.tar存储成功
+2022-10-19 11:09:53.281 INFO [http-nio-19801-exec-1][FileController.java:47] - FileInfo(fileId=16, fileName=fastjson-1.2.58.tar, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=846eaaaf22e44c66b0c0ff2ee4a12b5d.tar)
+2022-10-19 11:10:04.305 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:10:04.305 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:10:04.305 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@59fdba25
+2022-10-19 11:10:04.305 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:10:04.305 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:10:04.305 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:78] - workLoad.yaml
+2022-10-19 11:10:04.306 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:79] - 24
+2022-10-19 11:10:04.306 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:10:04.306 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:10:04.306 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:96] - originalFileName: workLoad.yaml
+2022-10-19 11:10:04.306 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 11:10:04.306 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:98] - fileUid: 6f12065515a8405f95fa709221dd2866.yaml
+2022-10-19 11:10:04.306 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\6f12065515a8405f95fa709221dd2866.yaml
+2022-10-19 11:10:04.306 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\6f12065515a8405f95fa709221dd2866.yaml
+2022-10-19 11:10:04.306 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:10:04.307 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:10:04.308 INFO [http-nio-19801-exec-3][FileController.java:56] - 文件：workLoad.yaml存储成功
+2022-10-19 11:10:04.308 INFO [http-nio-19801-exec-3][FileController.java:57] - FileInfo(fileId=17, fileName=workLoad.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=6f12065515a8405f95fa709221dd2866.yaml)
+2022-10-19 11:10:07.345 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:10:07.345 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:10:07.345 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@2562d2bb
+2022-10-19 11:10:07.345 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:10:07.345 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:10:07.346 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:78] - serviceYaml.yaml
+2022-10-19 11:10:07.346 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:79] - 27
+2022-10-19 11:10:07.346 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:10:07.346 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:10:07.346 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:96] - originalFileName: serviceYaml.yaml
+2022-10-19 11:10:07.346 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 11:10:07.346 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:98] - fileUid: 670d6159e213466c9c0aae426699eedc.yaml
+2022-10-19 11:10:07.346 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\670d6159e213466c9c0aae426699eedc.yaml
+2022-10-19 11:10:07.346 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\670d6159e213466c9c0aae426699eedc.yaml
+2022-10-19 11:10:07.346 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:10:07.347 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:10:07.348 INFO [http-nio-19801-exec-5][FileController.java:66] - 文件：serviceYaml.yaml存储成功
+2022-10-19 11:10:07.348 INFO [http-nio-19801-exec-5][FileController.java:67] - FileInfo(fileId=18, fileName=serviceYaml.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=670d6159e213466c9c0aae426699eedc.yaml)
+2022-10-19 11:10:38.421 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:10:38.421 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:10:38.422 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@ee099a8
+2022-10-19 11:10:38.422 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:10:38.422 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:10:38.422 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:78] - fastjson-1.2.58.tar
+2022-10-19 11:10:38.422 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:79] - 607159
+2022-10-19 11:10:38.422 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:10:38.422 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:10:38.422 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:96] - originalFileName: fastjson-1.2.58.tar
+2022-10-19 11:10:38.422 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:97] - contentType: tar
+2022-10-19 11:10:38.422 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:98] - fileUid: 97e698af4582436b8310cb55bef981d1.tar
+2022-10-19 11:10:38.423 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\97e698af4582436b8310cb55bef981d1.tar
+2022-10-19 11:10:38.423 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\97e698af4582436b8310cb55bef981d1.tar
+2022-10-19 11:10:38.423 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:10:38.423 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:10:38.424 INFO [http-nio-19801-exec-4][FileController.java:46] - 文件：fastjson-1.2.58.tar存储成功
+2022-10-19 11:10:38.424 INFO [http-nio-19801-exec-4][FileController.java:47] - FileInfo(fileId=19, fileName=fastjson-1.2.58.tar, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=97e698af4582436b8310cb55bef981d1.tar)
+2022-10-19 11:10:40.768 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:10:40.768 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:10:40.768 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@546720f5
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:78] - workLoad.yaml
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:79] - 24
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:96] - originalFileName: workLoad.yaml
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:98] - fileUid: fd49b364572242e1a424e0f79ca0ef3f.yaml
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\fd49b364572242e1a424e0f79ca0ef3f.yaml
+2022-10-19 11:10:40.769 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\fd49b364572242e1a424e0f79ca0ef3f.yaml
+2022-10-19 11:10:40.770 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:10:40.770 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:10:40.771 INFO [http-nio-19801-exec-6][FileController.java:56] - 文件：workLoad.yaml存储成功
+2022-10-19 11:10:40.771 INFO [http-nio-19801-exec-6][FileController.java:57] - FileInfo(fileId=20, fileName=workLoad.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=fd49b364572242e1a424e0f79ca0ef3f.yaml)
+2022-10-19 11:10:43.055 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:10:43.055 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:10:43.056 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@132dec0a
+2022-10-19 11:10:43.056 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:10:43.056 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:10:43.056 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:78] - serviceYaml.yaml
+2022-10-19 11:10:43.056 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:79] - 27
+2022-10-19 11:10:43.056 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:10:43.056 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:10:43.056 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:96] - originalFileName: serviceYaml.yaml
+2022-10-19 11:10:43.057 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 11:10:43.057 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:98] - fileUid: 5fbf87d53d7d4f148b32baff9f16bcf4.yaml
+2022-10-19 11:10:43.057 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\5fbf87d53d7d4f148b32baff9f16bcf4.yaml
+2022-10-19 11:10:43.057 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\5fbf87d53d7d4f148b32baff9f16bcf4.yaml
+2022-10-19 11:10:43.057 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:10:43.058 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:10:43.059 INFO [http-nio-19801-exec-8][FileController.java:66] - 文件：serviceYaml.yaml存储成功
+2022-10-19 11:10:43.059 INFO [http-nio-19801-exec-8][FileController.java:67] - FileInfo(fileId=21, fileName=serviceYaml.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=5fbf87d53d7d4f148b32baff9f16bcf4.yaml)
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@27dbb300
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:78] - ideaIU-2021.3.2.tar
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:79] - 966106985
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:96] - originalFileName: ideaIU-2021.3.2.tar
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:97] - contentType: tar
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:98] - fileUid: 54475eb4dc8a43feae25d750db1e5cd8.tar
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\54475eb4dc8a43feae25d750db1e5cd8.tar
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\54475eb4dc8a43feae25d750db1e5cd8.tar
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileController.java:46] - 文件：ideaIU-2021.3.2.tar存储成功
+2022-10-19 11:13:44.990 INFO [http-nio-19801-exec-3][FileController.java:47] - FileInfo(fileId=22, fileName=ideaIU-2021.3.2.tar, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=54475eb4dc8a43feae25d750db1e5cd8.tar)
+2022-10-19 11:13:51.777 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:13:51.777 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:13:51.777 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@66b5fd65
+2022-10-19 11:13:51.777 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:13:51.777 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:13:51.777 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:78] - workLoad.yaml
+2022-10-19 11:13:51.777 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:79] - 24
+2022-10-19 11:13:51.778 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:13:51.778 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:13:51.778 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:96] - originalFileName: workLoad.yaml
+2022-10-19 11:13:51.778 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 11:13:51.778 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:98] - fileUid: 681ecbd91c0648a0ae63de0900572d46.yaml
+2022-10-19 11:13:51.778 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\681ecbd91c0648a0ae63de0900572d46.yaml
+2022-10-19 11:13:51.778 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\681ecbd91c0648a0ae63de0900572d46.yaml
+2022-10-19 11:13:51.778 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:13:51.779 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:13:51.780 INFO [http-nio-19801-exec-5][FileController.java:56] - 文件：workLoad.yaml存储成功
+2022-10-19 11:13:51.780 INFO [http-nio-19801-exec-5][FileController.java:57] - FileInfo(fileId=23, fileName=workLoad.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=681ecbd91c0648a0ae63de0900572d46.yaml)
+2022-10-19 11:13:55.095 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:13:55.095 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:13:55.095 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@7091c848
+2022-10-19 11:13:55.096 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:13:55.096 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:13:55.096 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:78] - serviceYaml.yaml
+2022-10-19 11:13:55.096 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:79] - 27
+2022-10-19 11:13:55.096 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:13:55.096 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:13:55.096 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:96] - originalFileName: serviceYaml.yaml
+2022-10-19 11:13:55.096 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 11:13:55.096 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:98] - fileUid: c0369052c96942d3abc557104aa21b54.yaml
+2022-10-19 11:13:55.096 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\c0369052c96942d3abc557104aa21b54.yaml
+2022-10-19 11:13:55.097 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\c0369052c96942d3abc557104aa21b54.yaml
+2022-10-19 11:13:55.097 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:13:55.097 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:13:55.098 INFO [http-nio-19801-exec-4][FileController.java:66] - 文件：serviceYaml.yaml存储成功
+2022-10-19 11:13:55.098 INFO [http-nio-19801-exec-4][FileController.java:67] - FileInfo(fileId=24, fileName=serviceYaml.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=c0369052c96942d3abc557104aa21b54.yaml)
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@671317a9
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:78] - ideaIU-2021.3.2.tar
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:79] - 966106985
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:96] - originalFileName: ideaIU-2021.3.2.tar
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:97] - contentType: tar
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:98] - fileUid: fbccf4b73baf40769e5438ca4b6c66e1.tar
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\fbccf4b73baf40769e5438ca4b6c66e1.tar
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\fbccf4b73baf40769e5438ca4b6c66e1.tar
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileController.java:46] - 文件：ideaIU-2021.3.2.tar存储成功
+2022-10-19 11:16:09.859 INFO [http-nio-19801-exec-7][FileController.java:47] - FileInfo(fileId=25, fileName=ideaIU-2021.3.2.tar, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=fbccf4b73baf40769e5438ca4b6c66e1.tar)
+2022-10-19 11:16:15.906 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:16:15.906 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:16:15.906 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@7ec74482
+2022-10-19 11:16:15.906 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:16:15.906 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:16:15.906 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:78] - workLoad.yaml
+2022-10-19 11:16:15.908 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:79] - 24
+2022-10-19 11:16:15.908 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:16:15.908 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:16:15.908 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:96] - originalFileName: workLoad.yaml
+2022-10-19 11:16:15.908 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 11:16:15.908 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:98] - fileUid: 8d4ab4d2357e4d77b1d6e07ba14833d8.yaml
+2022-10-19 11:16:15.908 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\8d4ab4d2357e4d77b1d6e07ba14833d8.yaml
+2022-10-19 11:16:15.909 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\8d4ab4d2357e4d77b1d6e07ba14833d8.yaml
+2022-10-19 11:16:15.909 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:16:15.909 INFO [http-nio-19801-exec-10][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:16:15.910 INFO [http-nio-19801-exec-10][FileController.java:56] - 文件：workLoad.yaml存储成功
+2022-10-19 11:16:15.910 INFO [http-nio-19801-exec-10][FileController.java:57] - FileInfo(fileId=26, fileName=workLoad.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=8d4ab4d2357e4d77b1d6e07ba14833d8.yaml)
+2022-10-19 11:16:19.610 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:16:19.610 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:16:19.610 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@41eea08f
+2022-10-19 11:16:19.610 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:16:19.610 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:16:19.610 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:78] - serviceYaml.yaml
+2022-10-19 11:16:19.611 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:79] - 27
+2022-10-19 11:16:19.611 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:16:19.611 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:16:19.611 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:96] - originalFileName: serviceYaml.yaml
+2022-10-19 11:16:19.611 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 11:16:19.611 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:98] - fileUid: 8a4f103025d34e9aa3f97c0cab8d4839.yaml
+2022-10-19 11:16:19.611 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\8a4f103025d34e9aa3f97c0cab8d4839.yaml
+2022-10-19 11:16:19.611 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\8a4f103025d34e9aa3f97c0cab8d4839.yaml
+2022-10-19 11:16:19.611 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:16:19.612 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:16:19.613 INFO [http-nio-19801-exec-1][FileController.java:66] - 文件：serviceYaml.yaml存储成功
+2022-10-19 11:16:19.613 INFO [http-nio-19801-exec-1][FileController.java:67] - FileInfo(fileId=27, fileName=serviceYaml.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=8a4f103025d34e9aa3f97c0cab8d4839.yaml)
+2022-10-19 11:18:36.569 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:18:36.569 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:18:36.572 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@4d67acf1
+2022-10-19 11:18:36.572 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:18:36.572 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:18:36.573 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:78] - ideaIU-2021.3.2.tar
+2022-10-19 11:18:36.573 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:79] - 966106985
+2022-10-19 11:18:36.574 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:18:36.574 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:18:36.574 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:96] - originalFileName: ideaIU-2021.3.2.tar
+2022-10-19 11:18:36.575 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:97] - contentType: tar
+2022-10-19 11:18:36.575 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:98] - fileUid: 92aeb37bc96247eabcbb503ed3108a4c.tar
+2022-10-19 11:18:36.576 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\92aeb37bc96247eabcbb503ed3108a4c.tar
+2022-10-19 11:18:36.576 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\92aeb37bc96247eabcbb503ed3108a4c.tar
+2022-10-19 11:18:36.576 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:18:36.579 INFO [http-nio-19801-exec-5][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:18:36.581 INFO [http-nio-19801-exec-5][FileController.java:46] - 文件：ideaIU-2021.3.2.tar存储成功
+2022-10-19 11:18:36.581 INFO [http-nio-19801-exec-5][FileController.java:47] - FileInfo(fileId=28, fileName=ideaIU-2021.3.2.tar, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=92aeb37bc96247eabcbb503ed3108a4c.tar)
+2022-10-19 11:18:42.914 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:18:42.914 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:18:42.914 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@59452cef
+2022-10-19 11:18:42.914 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:18:42.914 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:18:42.914 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:78] - workLoad.yaml
+2022-10-19 11:18:42.915 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:79] - 24
+2022-10-19 11:18:42.915 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:18:42.915 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:18:42.915 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:96] - originalFileName: workLoad.yaml
+2022-10-19 11:18:42.915 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 11:18:42.915 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:98] - fileUid: b3b1cff7e0ce4d18b39986c417090000.yaml
+2022-10-19 11:18:42.916 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\b3b1cff7e0ce4d18b39986c417090000.yaml
+2022-10-19 11:18:42.916 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\b3b1cff7e0ce4d18b39986c417090000.yaml
+2022-10-19 11:18:42.916 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:18:42.918 INFO [http-nio-19801-exec-6][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:18:42.919 INFO [http-nio-19801-exec-6][FileController.java:56] - 文件：workLoad.yaml存储成功
+2022-10-19 11:18:42.920 INFO [http-nio-19801-exec-6][FileController.java:57] - FileInfo(fileId=29, fileName=workLoad.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=b3b1cff7e0ce4d18b39986c417090000.yaml)
+2022-10-19 11:18:45.281 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:72] - 
+2022-10-19 11:18:45.281 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 11:18:45.281 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@491d2930
+2022-10-19 11:18:45.281 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 11:18:45.282 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 11:18:45.282 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:78] - serviceYaml.yaml
+2022-10-19 11:18:45.282 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:79] - 27
+2022-10-19 11:18:45.282 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 11:18:45.282 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:82] - 
+2022-10-19 11:18:45.282 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:96] - originalFileName: serviceYaml.yaml
+2022-10-19 11:18:45.282 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 11:18:45.282 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:98] - fileUid: b3917176fa0c4cf59a0ebd2b48d4f462.yaml
+2022-10-19 11:18:45.283 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\b3917176fa0c4cf59a0ebd2b48d4f462.yaml
+2022-10-19 11:18:45.283 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\b3917176fa0c4cf59a0ebd2b48d4f462.yaml
+2022-10-19 11:18:45.283 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 11:18:45.284 INFO [http-nio-19801-exec-8][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 11:18:45.285 INFO [http-nio-19801-exec-8][FileController.java:66] - 文件：serviceYaml.yaml存储成功
+2022-10-19 11:18:45.285 INFO [http-nio-19801-exec-8][FileController.java:67] - FileInfo(fileId=30, fileName=serviceYaml.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=b3917176fa0c4cf59a0ebd2b48d4f462.yaml)
+2022-10-19 11:28:45.149 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-19 11:28:45.149 INFO [SpringContextShutdownHook][AbstractEntityManagerFactoryBean.java:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 11:28:45.149 INFO [SpringContextShutdownHook][DruidDataSource.java:1948] - {dataSource-1} closing ...
+2022-10-19 11:28:45.165 INFO [SpringContextShutdownHook][DruidDataSource.java:2020] - {dataSource-1} closed
+2022-10-19 16:36:03.239 INFO [main][StartupInfoLogger.java:55] - Starting PackageToolApplication using Java 1.8.0_345 on fengjinhe with PID 7148 (C:\Users\冯金河\IdeaProjects\PackageTool\target\classes started by 冯金河 in C:\Users\冯金河\IdeaProjects\PackageTool)
+2022-10-19 16:36:03.254 INFO [main][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+2022-10-19 16:36:03.755 INFO [main][RepositoryConfigurationDelegate.java:128] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 16:36:03.771 INFO [main][RepositoryConfigurationDelegate.java:188] - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2022-10-19 16:36:04.052 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 19801 (http)
+2022-10-19 16:36:04.068 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-19801"]
+2022-10-19 16:36:04.068 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2022-10-19 16:36:04.068 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-19 16:36:04.115 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2022-10-19 16:36:04.115 INFO [main][ServletWebServerApplicationContext.java:289] - Root WebApplicationContext: initialization completed in 829 ms
+2022-10-19 16:36:04.115 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2022-10-19 16:36:04.162 ERROR [main][DruidDataSource.java:1206] - testWhileIdle is true, validationQuery not set
+2022-10-19 16:36:04.193 INFO [main][DruidDataSource.java:1003] - {dataSource-1} inited
+2022-10-19 16:36:04.287 INFO [main][H2ConsoleAutoConfiguration.java:68] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../PackageTool/data/H2DataBase/h2db'
+2022-10-19 16:36:04.365 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 16:36:04.396 INFO [main][Version.java:44] - HHH000412: Hibernate ORM core version 5.4.25.Final
+2022-10-19 16:36:04.505 INFO [main][JavaReflectionManager.java:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 16:36:04.566 INFO [main][Dialect.java:175] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 16:36:04.917 INFO [main][JtaPlatformInitiator.java:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 16:36:04.917 INFO [main][AbstractEntityManagerFactoryBean.java:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 16:36:05.511 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-19 16:36:05.526 INFO [main][WelcomePageHandlerMapping.java:54] - Adding welcome page: class path resource [static/index.html]
+2022-10-19 16:36:05.589 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-19801"]
+2022-10-19 16:36:05.605 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 19801 (http) with context path ''
+2022-10-19 16:36:05.811 INFO [main][StartupInfoLogger.java:61] - Started PackageToolApplication in 2.759 seconds (JVM running for 3.495)
+2022-10-19 16:38:13.073 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-19 16:38:13.073 INFO [SpringContextShutdownHook][AbstractEntityManagerFactoryBean.java:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 16:38:13.073 INFO [SpringContextShutdownHook][DruidDataSource.java:1948] - {dataSource-1} closing ...
+2022-10-19 16:38:13.073 INFO [SpringContextShutdownHook][DruidDataSource.java:2020] - {dataSource-1} closed
+2022-10-19 16:38:16.607 INFO [main][StartupInfoLogger.java:55] - Starting PackageToolApplication using Java 1.8.0_345 on fengjinhe with PID 10772 (C:\Users\冯金河\IdeaProjects\PackageTool\target\classes started by 冯金河 in C:\Users\冯金河\IdeaProjects\PackageTool)
+2022-10-19 16:38:16.607 INFO [main][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+2022-10-19 16:38:17.081 INFO [main][RepositoryConfigurationDelegate.java:128] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 16:38:17.081 INFO [main][RepositoryConfigurationDelegate.java:188] - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2022-10-19 16:38:17.378 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 19801 (http)
+2022-10-19 16:38:17.393 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-19801"]
+2022-10-19 16:38:17.393 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2022-10-19 16:38:17.393 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-19 16:38:17.445 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2022-10-19 16:38:17.445 INFO [main][ServletWebServerApplicationContext.java:289] - Root WebApplicationContext: initialization completed in 787 ms
+2022-10-19 16:38:17.445 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2022-10-19 16:38:17.491 ERROR [main][DruidDataSource.java:1206] - testWhileIdle is true, validationQuery not set
+2022-10-19 16:38:17.491 INFO [main][DruidDataSource.java:1003] - {dataSource-1} inited
+2022-10-19 16:38:17.585 INFO [main][H2ConsoleAutoConfiguration.java:68] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../PackageTool/data/H2DataBase/h2db'
+2022-10-19 16:38:17.652 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 16:38:17.683 INFO [main][Version.java:44] - HHH000412: Hibernate ORM core version 5.4.25.Final
+2022-10-19 16:38:17.730 INFO [main][JavaReflectionManager.java:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 16:38:17.777 INFO [main][Dialect.java:175] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 16:38:18.027 INFO [main][JtaPlatformInitiator.java:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 16:38:18.043 INFO [main][AbstractEntityManagerFactoryBean.java:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 16:38:18.652 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-19 16:38:18.667 INFO [main][WelcomePageHandlerMapping.java:54] - Adding welcome page: class path resource [static/index.html]
+2022-10-19 16:38:18.730 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-19801"]
+2022-10-19 16:38:18.730 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 19801 (http) with context path ''
+2022-10-19 16:38:18.933 INFO [main][StartupInfoLogger.java:61] - Started PackageToolApplication in 2.514 seconds (JVM running for 3.323)
+2022-10-19 16:38:24.142 INFO [http-nio-19801-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 16:38:24.143 INFO [http-nio-19801-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2022-10-19 16:38:24.144 INFO [http-nio-19801-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2022-10-19 16:38:24.262 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:72] - 
+2022-10-19 16:38:24.263 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 16:38:24.263 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@56b4f1d3
+2022-10-19 16:38:24.263 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 16:38:24.263 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 16:38:24.263 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:78] - fastjson-1.2.58.tar
+2022-10-19 16:38:24.264 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:79] - 607159
+2022-10-19 16:38:24.264 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 16:38:24.264 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:82] - 
+2022-10-19 16:38:24.276 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:96] - originalFileName: fastjson-1.2.58.tar
+2022-10-19 16:38:24.276 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:97] - contentType: tar
+2022-10-19 16:38:24.276 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:98] - fileUid: 224c76b6f3564418993718ba93f40461.tar
+2022-10-19 16:38:24.276 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\224c76b6f3564418993718ba93f40461.tar
+2022-10-19 16:38:24.276 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\224c76b6f3564418993718ba93f40461.tar
+2022-10-19 16:38:24.276 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 16:38:24.276 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 16:38:24.331 INFO [http-nio-19801-exec-1][FileController.java:46] - 文件：fastjson-1.2.58.tar存储成功
+2022-10-19 16:38:24.336 INFO [http-nio-19801-exec-1][FileController.java:47] - FileInfo(fileId=31, fileName=fastjson-1.2.58.tar, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=224c76b6f3564418993718ba93f40461.tar)
+2022-10-19 16:38:27.397 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:72] - 
+2022-10-19 16:38:27.397 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 16:38:27.397 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@54548533
+2022-10-19 16:38:27.397 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 16:38:27.398 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 16:38:27.398 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:78] - workLoad.yaml
+2022-10-19 16:38:27.398 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:79] - 24
+2022-10-19 16:38:27.398 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 16:38:27.398 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:82] - 
+2022-10-19 16:38:27.398 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:96] - originalFileName: workLoad.yaml
+2022-10-19 16:38:27.398 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 16:38:27.398 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:98] - fileUid: 65c69d7f93c24f10a248d4f553db0447.yaml
+2022-10-19 16:38:27.398 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\65c69d7f93c24f10a248d4f553db0447.yaml
+2022-10-19 16:38:27.399 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\65c69d7f93c24f10a248d4f553db0447.yaml
+2022-10-19 16:38:27.399 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 16:38:27.399 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 16:38:27.400 INFO [http-nio-19801-exec-2][FileController.java:56] - 文件：workLoad.yaml存储成功
+2022-10-19 16:38:27.400 INFO [http-nio-19801-exec-2][FileController.java:57] - FileInfo(fileId=32, fileName=workLoad.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=65c69d7f93c24f10a248d4f553db0447.yaml)
+2022-10-19 16:38:30.428 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:72] - 
+2022-10-19 16:38:30.428 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 16:38:30.429 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@31347de1
+2022-10-19 16:38:30.429 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 16:38:30.429 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 16:38:30.429 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:78] - serviceYaml.yaml
+2022-10-19 16:38:30.429 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:79] - 27
+2022-10-19 16:38:30.429 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 16:38:30.429 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:82] - 
+2022-10-19 16:38:30.429 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:96] - originalFileName: serviceYaml.yaml
+2022-10-19 16:38:30.429 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 16:38:30.429 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:98] - fileUid: 34d04648ca7c43b1a76accaa9202077a.yaml
+2022-10-19 16:38:30.430 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\34d04648ca7c43b1a76accaa9202077a.yaml
+2022-10-19 16:38:30.430 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\34d04648ca7c43b1a76accaa9202077a.yaml
+2022-10-19 16:38:30.430 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 16:38:30.431 INFO [http-nio-19801-exec-3][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 16:38:30.432 INFO [http-nio-19801-exec-3][FileController.java:66] - 文件：serviceYaml.yaml存储成功
+2022-10-19 16:38:30.432 INFO [http-nio-19801-exec-3][FileController.java:67] - FileInfo(fileId=33, fileName=serviceYaml.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=34d04648ca7c43b1a76accaa9202077a.yaml)
+2022-10-19 16:40:09.875 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-19 16:40:09.875 INFO [SpringContextShutdownHook][AbstractEntityManagerFactoryBean.java:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 16:40:09.875 INFO [SpringContextShutdownHook][DruidDataSource.java:1948] - {dataSource-1} closing ...
+2022-10-19 16:40:09.875 INFO [SpringContextShutdownHook][DruidDataSource.java:2020] - {dataSource-1} closed
+2022-10-19 16:40:13.125 INFO [main][StartupInfoLogger.java:55] - Starting PackageToolApplication using Java 1.8.0_345 on fengjinhe with PID 29796 (C:\Users\冯金河\IdeaProjects\PackageTool\target\classes started by 冯金河 in C:\Users\冯金河\IdeaProjects\PackageTool)
+2022-10-19 16:40:13.125 INFO [main][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+2022-10-19 16:40:13.594 INFO [main][RepositoryConfigurationDelegate.java:128] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 16:40:13.609 INFO [main][RepositoryConfigurationDelegate.java:188] - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2022-10-19 16:40:13.853 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 19801 (http)
+2022-10-19 16:40:13.853 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-19801"]
+2022-10-19 16:40:13.853 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2022-10-19 16:40:13.853 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-19 16:40:13.900 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2022-10-19 16:40:13.900 INFO [main][ServletWebServerApplicationContext.java:289] - Root WebApplicationContext: initialization completed in 728 ms
+2022-10-19 16:40:13.916 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2022-10-19 16:40:13.947 ERROR [main][DruidDataSource.java:1206] - testWhileIdle is true, validationQuery not set
+2022-10-19 16:40:13.963 INFO [main][DruidDataSource.java:1003] - {dataSource-1} inited
+2022-10-19 16:40:14.041 INFO [main][H2ConsoleAutoConfiguration.java:68] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../PackageTool/data/H2DataBase/h2db'
+2022-10-19 16:40:14.119 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 16:40:14.150 INFO [main][Version.java:44] - HHH000412: Hibernate ORM core version 5.4.25.Final
+2022-10-19 16:40:14.213 INFO [main][JavaReflectionManager.java:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 16:40:14.291 INFO [main][Dialect.java:175] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 16:40:14.619 INFO [main][JtaPlatformInitiator.java:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 16:40:14.638 INFO [main][AbstractEntityManagerFactoryBean.java:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 16:40:15.322 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-19 16:40:15.337 INFO [main][WelcomePageHandlerMapping.java:54] - Adding welcome page: class path resource [static/index.html]
+2022-10-19 16:40:15.416 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-19801"]
+2022-10-19 16:40:15.431 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 19801 (http) with context path ''
+2022-10-19 16:40:15.655 INFO [main][StartupInfoLogger.java:61] - Started PackageToolApplication in 2.707 seconds (JVM running for 3.463)
+2022-10-19 18:31:15.599 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-19 18:31:15.599 INFO [SpringContextShutdownHook][AbstractEntityManagerFactoryBean.java:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 18:31:15.615 INFO [SpringContextShutdownHook][DruidDataSource.java:1948] - {dataSource-1} closing ...
+2022-10-19 18:31:15.615 INFO [SpringContextShutdownHook][DruidDataSource.java:2020] - {dataSource-1} closed
+2022-10-19 18:31:19.131 INFO [main][StartupInfoLogger.java:55] - Starting PackageToolApplication using Java 1.8.0_345 on fengjinhe with PID 35876 (C:\Users\冯金河\IdeaProjects\PackageTool\target\classes started by 冯金河 in C:\Users\冯金河\IdeaProjects\PackageTool)
+2022-10-19 18:31:19.131 INFO [main][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+2022-10-19 18:31:19.584 INFO [main][RepositoryConfigurationDelegate.java:128] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 18:31:19.599 INFO [main][RepositoryConfigurationDelegate.java:188] - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2022-10-19 18:31:19.834 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 19801 (http)
+2022-10-19 18:31:19.849 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-19801"]
+2022-10-19 18:31:19.849 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2022-10-19 18:31:19.849 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-19 18:31:19.896 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2022-10-19 18:31:19.896 INFO [main][ServletWebServerApplicationContext.java:289] - Root WebApplicationContext: initialization completed in 734 ms
+2022-10-19 18:31:19.896 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2022-10-19 18:31:19.943 ERROR [main][DruidDataSource.java:1206] - testWhileIdle is true, validationQuery not set
+2022-10-19 18:31:19.943 INFO [main][DruidDataSource.java:1003] - {dataSource-1} inited
+2022-10-19 18:31:20.037 INFO [main][H2ConsoleAutoConfiguration.java:68] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../PackageTool/data/H2DataBase/h2db'
+2022-10-19 18:31:20.099 INFO [main][LogHelper.java:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 18:31:20.115 INFO [main][Version.java:44] - HHH000412: Hibernate ORM core version 5.4.25.Final
+2022-10-19 18:31:20.162 INFO [main][JavaReflectionManager.java:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 18:31:20.209 INFO [main][Dialect.java:175] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 18:31:20.459 INFO [main][JtaPlatformInitiator.java:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 18:31:20.474 INFO [main][AbstractEntityManagerFactoryBean.java:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 18:31:21.053 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-19 18:31:21.068 INFO [main][WelcomePageHandlerMapping.java:54] - Adding welcome page: class path resource [static/index.html]
+2022-10-19 18:31:21.146 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-19801"]
+2022-10-19 18:31:21.162 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 19801 (http) with context path ''
+2022-10-19 18:31:21.381 INFO [main][StartupInfoLogger.java:61] - Started PackageToolApplication in 2.439 seconds (JVM running for 3.111)
+2022-10-19 18:33:34.952 INFO [http-nio-19801-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 18:33:34.952 INFO [http-nio-19801-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2022-10-19 18:33:34.952 INFO [http-nio-19801-exec-1][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2022-10-19 18:33:35.082 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:72] - 
+2022-10-19 18:33:35.082 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 18:33:35.082 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@3cb087e4
+2022-10-19 18:33:35.082 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 18:33:35.082 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 18:33:35.083 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:78] - fastjson-1.2.58.tar
+2022-10-19 18:33:35.083 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:79] - 607159
+2022-10-19 18:33:35.083 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 18:33:35.083 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:82] - 
+2022-10-19 18:33:35.094 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:96] - originalFileName: fastjson-1.2.58.tar
+2022-10-19 18:33:35.095 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:97] - contentType: tar
+2022-10-19 18:33:35.095 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:98] - fileUid: bbcbb1d8d9bf447da7866075bf6141be.tar
+2022-10-19 18:33:35.095 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\bbcbb1d8d9bf447da7866075bf6141be.tar
+2022-10-19 18:33:35.095 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\bbcbb1d8d9bf447da7866075bf6141be.tar
+2022-10-19 18:33:35.095 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 18:33:35.097 INFO [http-nio-19801-exec-1][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 18:33:35.145 INFO [http-nio-19801-exec-1][FileController.java:46] - 文件：fastjson-1.2.58.tar存储成功
+2022-10-19 18:33:35.145 INFO [http-nio-19801-exec-1][FileController.java:47] - FileInfo(fileId=34, fileName=fastjson-1.2.58.tar, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=bbcbb1d8d9bf447da7866075bf6141be.tar)
+2022-10-19 18:33:38.702 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:72] - 
+2022-10-19 18:33:38.702 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 18:33:38.702 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@445ec772
+2022-10-19 18:33:38.702 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 18:33:38.702 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 18:33:38.702 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:78] - workLoad.yaml
+2022-10-19 18:33:38.703 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:79] - 24
+2022-10-19 18:33:38.703 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 18:33:38.703 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:82] - 
+2022-10-19 18:33:38.703 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:96] - originalFileName: workLoad.yaml
+2022-10-19 18:33:38.703 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 18:33:38.703 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:98] - fileUid: 1e225582686d4da299ae2e3cfd294c8e.yaml
+2022-10-19 18:33:38.703 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\1e225582686d4da299ae2e3cfd294c8e.yaml
+2022-10-19 18:33:38.703 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\1e225582686d4da299ae2e3cfd294c8e.yaml
+2022-10-19 18:33:38.703 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 18:33:38.704 INFO [http-nio-19801-exec-2][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 18:33:38.705 INFO [http-nio-19801-exec-2][FileController.java:56] - 文件：workLoad.yaml存储成功
+2022-10-19 18:33:38.705 INFO [http-nio-19801-exec-2][FileController.java:57] - FileInfo(fileId=35, fileName=workLoad.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=1e225582686d4da299ae2e3cfd294c8e.yaml)
+2022-10-19 18:33:41.766 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:72] - 
+2022-10-19 18:33:41.766 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:73] - 扫描接收的文件数组信息：
+2022-10-19 18:33:41.766 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:74] - [Lorg.springframework.web.multipart.MultipartFile;@6f32d5a7
+2022-10-19 18:33:41.766 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:75] - 接收文件数组：files_length = 1
+2022-10-19 18:33:41.766 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:77] - 文件信息：
+2022-10-19 18:33:41.766 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:78] - serviceYaml.yaml
+2022-10-19 18:33:41.767 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:79] - 27
+2022-10-19 18:33:41.767 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:81] - 扫描接收的文件数组信息完成：
+2022-10-19 18:33:41.767 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:82] - 
+2022-10-19 18:33:41.767 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:96] - originalFileName: serviceYaml.yaml
+2022-10-19 18:33:41.767 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:97] - contentType: yaml
+2022-10-19 18:33:41.767 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:98] - fileUid: 83465c335d9748c59b7fbadd6847b303.yaml
+2022-10-19 18:33:41.767 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:99] - uploadFile: ..\PackageTool\data\files\83465c335d9748c59b7fbadd6847b303.yaml
+2022-10-19 18:33:41.767 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:100] - dest: C:\Users\冯金河\IdeaProjects\PackageTool\..\PackageTool\data\files\83465c335d9748c59b7fbadd6847b303.yaml
+2022-10-19 18:33:41.767 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:101] - parentFile: ..\PackageTool\data\files
+2022-10-19 18:33:41.768 INFO [http-nio-19801-exec-4][FileInfoServiceImpl.java:109] - 写入一条文件记录，只记录oriName和Uid
+2022-10-19 18:33:41.769 INFO [http-nio-19801-exec-4][FileController.java:66] - 文件：serviceYaml.yaml存储成功
+2022-10-19 18:33:41.769 INFO [http-nio-19801-exec-4][FileController.java:67] - FileInfo(fileId=36, fileName=serviceYaml.yaml, fileType=null, fileSize=null, fileUrl=null, fileMd5=null, isDelete=null, enable=null, fileUid=83465c335d9748c59b7fbadd6847b303.yaml)
+2022-10-19 20:27:23.773 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-19 20:27:23.789 INFO [SpringContextShutdownHook][AbstractEntityManagerFactoryBean.java:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 20:27:23.789 INFO [SpringContextShutdownHook][DruidDataSource.java:1948] - {dataSource-1} closing ...
+2022-10-19 20:27:23.805 INFO [SpringContextShutdownHook][DruidDataSource.java:2020] - {dataSource-1} closed
