@@ -59,8 +59,11 @@ files:
     path: ../PackageTool/data/fileTemp
   zip:
     path: ../PackageTool/data/zips
-  scheme:
-    path: web/src/main/resources/scheme
-  schemeDetail:
-      path: web/src/main/resources/schemeDetailInfo
+#files:
+#  upload:
+#    path: data/files
+#  temp:
+#    path: data/fileTemp
+#  zip:
+#    path: data/zips
 
