@@ -56,4 +56,13 @@ public class BasicInfoForm {
     private String cpuRequests;
     private String memoryRequests;
 
+
+    /**
+     * 2022年11月30日 增加ServiceDescription、KeyWordList
+     */
+
+    private String serviceDescription;
+    private String[] keywordList;
+
+
 }
