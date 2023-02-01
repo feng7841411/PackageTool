@@ -21,7 +21,7 @@ spring:
   # 数据源设置
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:file:../PackageTool/data/H2DataBase/h2db
+    url: jdbc:h2:file:./data/H2DataBase/h2db
     username: san
     password:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -54,11 +54,11 @@ mybatis-plus:
 #文件存储路径
 files:
   upload:
-    path: ../PackageTool/data/files
+    path: ./data/files
   temp:
-    path: ../PackageTool/data/fileTemp
+    path: ./data/fileTemp
   zip:
-    path: ../PackageTool/data/zips
+    path: ./data/zips
 #files:
 #  upload:
 #    path: data/files
